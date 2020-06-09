@@ -1,0 +1,74 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.header{ grid-area: header; }
+.slider{ grid-area: slider; }
+.content{ grid-area: content; }
+.footer{ grid-area: footer; }
+
+.grid-page{
+    display: grid;
+    grid-template-areas: 
+        'header header header header header header'
+        'slider slider slider slider slider slider'
+        'content content content content content content'
+        'footer footer footer footer footer footer';
+}
+
+.Navbar1{
+    margin-left: 40px;
+}
+
+.Navbar2{
+    margin-left: 700px;
+}
+
+.Logo1{
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+.Logo2{
+    margin-right: 35px;
+}
+
+.slider{
+    margin-top: 0px;
+}
+
+.Slider1{
+    font-size: 50px;
+}
+
+.Slider2{
+    font-size: 50px;
+}
+
+.Slider3{
+    font-size: 50px;
+}
+
+.content{
+    margin: 15px 10px;
+}
+
+
+.mensaje1{
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.incono{
+    margin-top: -80px;
+    margin-left: 1190px;
+}
+
+.Firma{
+    margin-left: 1200px;
+}
+
+.Formulario1{
+    margin-left: 10px;
+}
